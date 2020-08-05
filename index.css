@@ -1,0 +1,193 @@
+/*
+body{
+background: turquoise;
+}
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+    font-size:62.5%;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p{
+    font-size:1rem;
+}
+
+section{
+    padding:2% 7%;
+}
+
+.button{
+    display:inline-block;
+    background-color: #FF764E;
+    width:20%;
+    text-align: center;
+    padding: 1% 2.5%;
+    margin: 0 5%;
+    font-size:1.3rem;
+    color:white;
+    border-radius: 20px;
+    transition: .25s;
+}
+
+.button_container{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width:90%;
+}
+
+.intro{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width:90%;
+}
+
+.intro div{
+    display:inline-block;
+    width:70%;
+    vertical-align: top;
+}
+
+.intro img{
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+}
+
+.intro div p{
+    margin: 3% 5%;
+}
+
+.intro div p~p{
+    margin: 2% 25%;
+}
+
+h1{
+    font-family: 'Chelsea Market',cursive;
+    font-size: 3.2rem;
+    margin: 3% 0;
+}
+
+.info{
+    text-align: center;
+    background: #DDB9A3;
+    padding: 1% 2%;
+    color: white;
+    margin: 0;
+}
+
+.info p:first-child{
+    margin-bottom: 1.75%;
+}
+
+#info-box{
+    padding-bottom: 0;
+}
+
+
+.item{
+    width: 50%;
+    margin: 0 auto 5% auto;
+    text-align: center;
+}
+
+.item img{
+    width: 30%;
+    height: 30%;
+    padding-bottom: 3%;
+}
+
+.item p{
+    width: 65%;
+    margin: 0 auto;
+}
+
+b{
+    /*Fallback for older browsers*/
+    font-weight: bold;
+    /*For browsers that support a numeric value*/
+    font-weight: 700;
+}
+
+.bottom{
+    background-image: url(assets/footer_img.jpg);
+    height: 60vh;
+    background-attachment: fixed;
+}
+
+footer section{
+    background: #F9E7DC;
+}
+
+.blue{
+    background: #5ED3EB;
+}
+
+.yellow{
+    background: #FFCD69;
+}
+
+.button:hover{
+    background-color: dimgray;
+    color:white;
+}
+
+/*
+footer .button_container .button{
+    padding: 2% 5px;
+}
+*/
+
+/*
+.intro{
+display: inline-block;
+}
+
+.intro div{
+display: inline-block;
+}
+*/
+
+/*
+h1{
+display: inline-block;
+font-family: 'Chelsea Market', cursive;
+font-size:2rem;
+vertical-align: top;
+display: inline;
+width:10%;
+}
+*/
+
+/*
+p{
+display: inline-block;
+}*/
